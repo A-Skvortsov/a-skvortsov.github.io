@@ -1,5 +1,30 @@
+body {
+    background-image: url("../images/random-background.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h1, h2 {
-	color: blue;
-	text-align: center;
-	font-style: italic;
+    color: blue;
+    text-align: center;
+    font-style: italic;
+}
+
+#topnav {
+    background-color: purple;
+    text-align: center;
+    padding: 30px;
+}
+
+#topnav a {
+    color: white;
+    font-size: 20px;
+}
+
+#topnav ul {
+    list-style: none;
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
 }
