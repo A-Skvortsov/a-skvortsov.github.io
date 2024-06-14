@@ -8,6 +8,7 @@ body {
 /*-------------------------------------------*/
 .background img, .background h1 {
 	position: absolute;
+	top: 10vh;
 	height: auto; width: 100vw;
 }
 .background img {
@@ -30,6 +31,7 @@ h1 span {
 
 /*-------------------------------------------*/
 nav {
+	position: absolute;
 	background-color: rgb(0,51,102);
 	padding: 2vh;
 	width: 100vw;
