@@ -32,7 +32,7 @@ h1 span {
 /*-------------------------------------------*/
 nav {
 	z-index: 1;
-	position: absolute;
+	position: fixed;
 	background-color: rgb(0,51,102);
 	padding: 2vh;
 	width: 100vw;
