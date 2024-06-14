@@ -16,10 +16,13 @@
 }
 //this is an example change
 $(document).ready(function() {
-	showViewPortSize(true);
+//next line is for debugging
+//	showViewPortSize(true);
 
+/*	var nav_height = $('nav').height();
+	$('nav').css("line-height", nav_height);
+*/	
 	$(window).resize(function(){
-		var nav_height = $('nav').height();
     	var bg_width = window.innerWidth;
     	var bg_height = window.innerHeight;
 
