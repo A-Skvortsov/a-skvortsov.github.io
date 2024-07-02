@@ -61,3 +61,13 @@ nav ul {
 	margin: 0;
 	padding: 0;
 }
+
+
+
+/*-------------------------------------------*/
+@media (orientation: landscape) {
+	.background img {height: auto; width: 100vw;}
+}
+@media (orientation: portrait) {
+	.background img {width: auto; height: 100vh;}
+}
