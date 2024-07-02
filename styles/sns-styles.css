@@ -8,7 +8,21 @@ body {
 
 
 /*-------------------------------------------*/
-.background img, .background h1 {
+.background button {
+	margin: 10vh 0 0 0;
+	position: relative;
+	height: 10vh; width: 30vw;
+	color: rgb(0,51,102);
+}
+
+#quote {
+	margin: 0;
+	left: 35vw;
+	top: 65vh;
+}
+
+.background img,
+.background h1 {
 	position: absolute;
 	top: 10vh;
 	height: auto; width: 100vw;
@@ -65,9 +79,9 @@ nav ul {
 
 
 /*-------------------------------------------*/
-@media (orientation: landscape) {
+@media (calc(1.6 * 100vh) < width) {
 	.background img {height: auto; width: 100vw;}
 }
-@media (orientation: portrait) {
+@media (max-width: calc(1.6 * 100vh)) {
 	.background img {width: auto; height: 100vh;}
 }
