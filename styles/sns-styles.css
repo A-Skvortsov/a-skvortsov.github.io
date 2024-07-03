@@ -7,16 +7,15 @@ body {
 
 
 
-/*-------------------------------------------*/
+/*first tile (title tile)
+-------------------------------------------*/
 .background button {
-	margin: 10vh 0 0 0;
 	position: relative;
 	height: 10vh; width: 30vw;
 	color: rgb(0,51,102);
 }
 
 #quote {
-	margin: 0;
 	left: 35vw;
 	top: 65vh;
 }
@@ -45,7 +44,8 @@ h1 span {
 
 
 
-/*-------------------------------------------*/
+/*navigation bar
+-------------------------------------------*/
 nav {
 	z-index: 1;
 	position: fixed;
@@ -78,7 +78,9 @@ nav ul {
 
 
 
-/*-------------------------------------------*/
+
+/*Responsiveness
+-------------------------------------------*/
 @media (calc(1.6 * 100vh) < width) {
 	.background img {height: auto; width: 100vw;}
 }
